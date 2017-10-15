@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.demyo</groupId>
+		<artifactId>demyo</artifactId>
+		<version>2.1.0-alpha1-SNAPSHOT</version>
+	</parent>
+	<groupId>org.demyo</groupId>
+	<artifactId>demyo-plugins-parent</artifactId>
+	<version>2.1.0-alpha1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Demyo Plugins Parent POM</name>
+	<description>A parent POM for all Demyo plugins</description>
+
+	<issueManagement>
+		<url>https://github.com/The4thLaw/demyo-core-plugins/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+	
+	<scm>
+		<url>https://github.com/The4thLaw/demyo-core-plugins</url>
+		<connection>scm:git:git://github.com/The4thLaw/demyo-core-plugins.git</connection>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>xr</id>
+			<name>Xavier 'Xr' Dalem</name>
+			<roles>
+				<role>Project Lead</role>
+				<role>Analyst</role>
+				<role>Developer</role>
+				<role>Designer</role>
+				<role>Translator</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.coreVersion>2.1.0-alpha1-SNAPSHOT</project.coreVersion>
+	</properties>
+
+	<modules>
+		<module>demyo-plugin-books</module>
+	</modules>
+</project>
